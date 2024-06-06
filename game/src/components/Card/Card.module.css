@@ -1,0 +1,49 @@
+.card {
+    position: absolute;
+    transform: translate(0, 0);
+    width: 83vw;
+    height: 83vw;
+    background-image: url("../../images/6.webp");
+    background-size: 100% 100%;
+    margin: 0.5vw;
+    border-radius: 4%;
+    transform-origin: center;
+    overflow: hidden;
+}
+
+.side {
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.leftSide {
+    text-align: right;
+}
+
+.rightSide {
+    text-align: left;
+}
+
+.cardText {
+    position: relative;
+    color: #FFFFFF;
+    padding: 5vw;
+    z-index: 100;
+}
+
+.sideBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #181f2f;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.isSubmitted {
+    pointer-events: none;
+}

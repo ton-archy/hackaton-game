@@ -1,0 +1,64 @@
+.statIcon {
+  position: relative;
+  height: 70%;
+  width: auto;
+  flex-grow: 1;
+  flex-basis: 0;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.iconWrapper {
+  position: relative;
+  width: fit-content;
+  height: 100%;
+}
+
+.svg{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.valueChange {
+  position: absolute;
+  right: -1.4em;
+  top: calc(50% - 0.8em / 2);
+  font-size: 0.8em;
+  color: #4acb24;
+}
+
+.positive {
+  color: #4acb24;
+}
+
+.negative {
+  color: #ff0907;
+}
+
+.valueIcon {
+  position: relative;
+  height: 70%;
+  width: auto;
+  flex-grow: 1;
+  flex-basis: 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.icon {
+  position: relative;
+  width: 13vw;
+  height: 10vw;
+  background-image: url("../../../images/currency-icon.svg");
+  background-size: 100% 100%;
+}
+
+.value {
+  color: var(--light-gold);
+  font-size: 0.7em;
+}

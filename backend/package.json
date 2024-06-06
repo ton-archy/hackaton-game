@@ -1,0 +1,36 @@
+{
+  "name": "reign-demo-game",
+  "version": "1.0.0",
+  "description": "Simple webapp for Telegram",
+  "main": "src/server.js",
+  "scripts": {
+    "back:start": "node src/server.js",
+    "back:start:dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/oculusweb/reign-demo-game.git"
+  },
+  "author": "Kirill Sidorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/oculusweb/reign-demo-game/issues"
+  },
+  "homepage": "https://bitbucket.org/oculusweb/reign-demo-game#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "express": "^4.19.2",
+    "luxon": "^3.4.4",
+    "mongoose": "^8.3.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "node-xlsx": "^0.24.0"
+  }
+}

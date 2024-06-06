@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: var(--dark-bg);
+    flex-shrink: 0;
+}
+
+.bottomConsole {
+    position: absolute;
+    width: 100%;
+    height: 5vw;
+    transform: translate(0%, 50%);
+    bottom: 0;
+    background-image: url("../../images/stats_panel_console.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.iconBar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: start;
+    justify-content: space-between;
+    padding: 0% 5%;
+    box-sizing: border-box;
+}
+
+.bgLayer {
+    fill: #0062A9;
+}
+
+.maskedLayer {
+    fill: #73CFF4;
+}
+
+.currBgLayer {
+    fill: #7D6B3B;
+}
+
+.currMaskedLayer {
+    fill: var(--light-gold);
+}
